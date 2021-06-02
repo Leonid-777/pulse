@@ -1,0 +1,211 @@
+@media (max-width: 769px) {
+    .header {
+        padding: 0 20px 0 20px;
+    }
+    .promo {
+        &__logo {
+            max-width: 200px;
+        }
+        &__header {
+            text-align: center;
+            margin: 0 auto;
+        }
+        &__subheader {
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        &__icons {
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        &__link {
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .button_main {
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 33px;
+        input {
+            font-size: 20px;
+        }
+    }
+    .title {
+        text-align: center;
+    }
+    .consultation {
+        &__descr {
+            text-align: center;
+        }
+    }
+    .carousel {
+        &__item {
+            img {
+                display: block;
+                margin: 0 auto;
+                max-width: 90%;
+            }
+        }
+    }
+    .catalog {
+        display: flex;
+        justify-content: center;
+        &__tabs {
+            max-width: 80%;
+            margin: 0 auto;
+            margin-top: 20px;
+            &:nth-child(3) {
+                margin: 0;
+            }
+        }
+        &__tab {
+            font-size: 14px;
+            max-width: 200px;
+        }
+        &__content {
+            grid-template-columns: 303px 303px;
+            row-gap: 30px;
+        }
+    }
+    .comments {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .comment {
+        &__name {
+            font-size: 22px;
+            line-height: 1.5em;
+        }
+        &__subtitle {
+            font-size: 18px;
+            line-height: 1.5em;
+        }
+        &__text {
+            font-size: 20px;
+            line-height: 1.5em;
+        }
+    }
+}
+
+@media (max-width: 630px) {
+    .catalog {
+       max-width: 303px;
+       margin: 0 auto;
+       margin-top: 40px;
+        &__content {
+            grid-template-columns: 303px;
+        }
+        &__tab {
+            display: block;
+            min-height: 100px;
+            transform: none;
+            div {
+                transform: none;
+                width: 100px;
+            }
+        }
+    }
+    .modal {
+        &__close {
+            z-index: 3;
+            right: 10px;
+            top: 10px;
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    .header {
+        padding: 0 20px 0 20px;
+    }
+    .promo__icons {
+        justify-content: center;
+    }
+    .advance {
+        margin: 0 auto;
+        padding-bottom: 30px;
+        &__wrapper {
+            margin: 0 auto;
+            flex-direction: column;
+            max-width: 80%;
+        }
+        img {
+            margin-top: 40px;
+        }
+        &__icons {
+            margin: 0 auto;
+            max-width: 100%;
+        }
+        &__descr {
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+    .comment {
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        &__wrap {
+            margin-left: 30px;
+        }
+    }
+    .footer {
+        margin: 0 auto;
+        max-height: 100%;
+        &__info {
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        margin: 0;
+    }
+    .promo {
+        &__icon {
+            font-size: 20px;
+            line-height: 1em;
+        }
+        &__icons {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: center;
+            padding: 0;
+        }
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .advance {
+        &__header {
+            font-size: 24px;
+        }
+    }
+    .catalog {
+        &__tab {
+            display: block;
+            min-height: 100px;
+            transform: none;
+            div {
+                transform: none;
+                font-size: 15px;
+                width: 95px;
+            }
+        }
+    }
+    .modal {
+        max-width: 90%;
+        form {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.comments {
+    padding-bottom: 40px;
+}
+.comment {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 60px;
+    img {
+        display: block;
+        width: 170px;
+        height: 170px;
+        border-radius: 100%;
+    }
+    &__wrap {
+        margin-left: 60px;
+        max-width: 690px;
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+    &__subtitle {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #646464;
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        color: #0D0D0D;
+    }
+}
